@@ -12,7 +12,7 @@ A página inclui:
 ## Estrutura do repositório
 - `about_me.html` — estrutura da página
 - `style.css` — estilos visuais
-- `perfil.jpg` — foto de perfil
+- `Perfil.jpg` — foto de perfil
 
 ## Como visualizar
 1. Clone ou baixe este repositório.

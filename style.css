@@ -1,56 +1,56 @@
-/* Estilo existente para o body (exemplo) */
 body {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     background-color: #eef1f5;
     color: #333a40;
+    margin: 0;
+    padding: 20px;
 }
 
 main {
-    width: 80%; 
-    max-width: 900px; 
-    margin-left: auto; 
-    margin-right: auto; 
-    background-color: white; 
-    padding: 20px; 
+    width: 80%;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
-header h1#page-title {
+header #page-title {
     font-size: 2.25rem;
+    color: #1a252f;
+    text-align: center;
 }
 
 h2 {
     font-size: 1.75rem;
+    color: #2c3e50;
 }
 
 p, li {
     font-size: 1rem;
+    line-height: 1.5;
 }
 
-header {
-    text-align: center;
-    padding: 20px 0;
+.highlight-hobby {
+    font-weight: bold;
+    color: #27ae60;
 }
 
-#introduction img {
-    border-radius: 50%;
-    border: 3px solid #ccc;
+.profile-img {
+    max-width: 150px;
+    width: 100%;
+    height: auto;
     display: block;
-    margin: 0 auto 20px auto; 
+    margin-bottom: 15px;
 }
 
-a {
+footer a {
     color: #0066cc;
-    text-decoration: none;
-}
-
-a:hover {
+    font-weight: bold;
     text-decoration: underline;
 }
 
-footer {
-    text-align: center;
-    margin-top: 40px;
-    padding: 20px;
-    color: #666;
-    font-size: 0.9rem;
+footer a:hover {
+    color: #004080;
 }

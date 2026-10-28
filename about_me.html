@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>About Me - Matheus Pietro Klein</title>
-    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="styles.css"> 
 </head>
 <body>
     <header>
@@ -11,8 +11,7 @@
     </header>
     <main>
         <section id="introduction">
-            <img src="Perfil.jpg" alt="Profile picture of Matheus Pietro Klein" width="150">
-
+            <img src="Perfil.jpg" alt="Profile picture of Matheus Pietro Klein" class="profile-img">
             <h2>A Little About My Journey</h2>
             <p>Hello! I'm Matheus Pietro Klein and I'm very excited to learn web development. I like to solve problems and create new things. This course is my first step to becoming a developer!</p>
             <p>When I'm not studying HTML, I like to:</p>
@@ -20,13 +19,14 @@
         <section id="hobbies">
             <h2>My Hobbies</h2>
             <ul>
-                <li>Read science fiction books</li>
+                <li class="highlight-hobby">Read science fiction books</li>
                 <li>Play chess online</li>
                 <li>Play video games</li>
-                <li>Learn new technologies</li>
+                <li class="highlight-hobby">Learn new technologies</li>
                 <li>Listen to music</li>
             </ul>
         </section>
+        
         <section id="goals">
             <h2>My Goals in the Course</h2>
             <ol>
@@ -40,11 +40,17 @@
         <p>Connect with me:</p>
         <nav aria-label="Links sociais e de navegação secundária">
             <ul>
-                <li><a href="https://github.com/matheuspklein" target="_blank">My GitHub</a></li>
-                <li>Or send me an email: <a href="mailto:matheusklein.pietro@gmail.com">matheusklein.pietro@gmail.com</a></li>
+                <li>
+                    <a href="https://github.com/matheuspklein" target="_blank" rel="noopener">
+                        My GitHub (opens in a new tab)
+                    </a>
+                </li>
             </ul>
         </nav>
         <p>&copy; 2026 Matheus Pietro Klein. All rights reserved.</p>
+    </footer>
+</body>
+</html>
     </footer>
 </body>
 </html>

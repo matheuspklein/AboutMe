@@ -1,33 +1,44 @@
 # About Me
 
-Projeto simples de página pessoal em HTML e CSS, criado como uma primeira apresentação de quem sou, meus hobbies e objetivos no curso de desenvolvimento web.
+Este projeto é uma página pessoal estática desenvolvida em HTML e CSS para apresentar informações sobre Matheus Pietro Klein, incluindo sua jornada, hobbies e objetivos de aprendizagem.
 
 ## Sobre o projeto
+A página foi criada como um exercício de desenvolvimento web para praticar:
+- estrutura com HTML
+- estilização com CSS
+- uso de imagens e links
+- organização de conteúdo em seções
+
+## Conteúdo da página
 A página inclui:
-- uma introdução pessoal
+- foto de perfil
+- introdução sobre a jornada de aprendizado
 - lista de hobbies
-- objetivos de aprendizado
-- links para GitHub e contato por e-mail
+- objetivos no curso de desenvolvimento web
+- links para GitHub e Chess.com
 
-## Estrutura do repositório
-- `about_me.html` — estrutura da página
-- `style.css` — estilos visuais
-- `Perfil.jpg` — foto de perfil
+## Arquivos do repositório
+- `index.html` — estrutura e conteúdo da página
+- `styles.css` — estilos visuais da página
+- `Perfil.jpg` — imagem de perfil
+- `README.md` — documentação do projeto
 
-## Como visualizar
-1. Clone ou baixe este repositório.
-2. Abra o arquivo `about_me.html` em qualquer navegador.
-3. Opcionalmente, você pode rodar um servidor local:
+## Como visualizar localmente
+Você pode abrir o arquivo `index.html` diretamente no navegador, ou executar um servidor local:
 
 ```bash
 python -m http.server 8000
 ```
 
-Depois, acesse `http://localhost:8000` no navegador.
+Depois, acesse:
+
+```text
+http://localhost:8000
+```
 
 ## Autor
 Matheus Pietro Klein
 
 ## Contato
 - GitHub: https://github.com/matheuspklein
-- E-mail: matheusklein.pietro@gmail.com
+- Chess.com: https://www.chess.com
